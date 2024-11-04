@@ -1,0 +1,151 @@
+/* styles.css */
+.navbar {
+    justify-content: center; /* Center the navbar items */
+}
+
+.navbar-nav {
+    flex-direction: row; /* Ensure items are in a row */
+}
+
+.nav-link {
+    margin: 0 15px; /* Add some space between links */
+}
+.intro{
+    text-align: center;
+    /*background-image: url('Image/Tiles-Design.png'); */
+    color: white;
+    
+}
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   /* background-color: gray; Set the background color of the page */
+    background-color:rgb(128, 110, 98);
+    color: white; /* Set the default text color */
+}
+
+/* Intro section */
+.intro {
+    padding: 40px; /* Add padding for space */
+    text-align: center;
+}
+
+
+/* Grid Container */
+.container {
+    margin-top: 40px; /* Space above the grid */
+}
+
+/* Grid Items */
+.row {
+    border: 2px solid brown; /* Border around the entire row */
+    border-radius: 5px; /* Optional: rounded corners */
+    margin-bottom: 20px; /* Space between rows */
+    background-color: black; /* Ensure the background is black for the grid */
+    padding: 20px; /* Padding inside the grid items */
+}
+
+/* Column Styles */
+.col {
+    border: 1px solid brown; /* Brown border for each column */
+    padding: 20px; /* Padding inside columns */
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+}
+
+/* More Info Button */
+.buttom a {
+    display: inline-block; /* Make the link act like a button */
+    padding: 10px 20px; /* Button padding */
+    background-color: brown; /* Brown background */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.buttom a:hover {
+    background-color: #a0522d; /* Lighter brown on hover */
+}
+/* */
+.contact {
+    padding: 20px;
+    
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem; /* Slightly larger font size */
+    margin: 10px 0;
+}
+
+.contact svg {
+    margin-right: 10px; /* Space between icon and text */
+    vertical-align: middle; /* Center icons vertically with text */
+    fill: #007bff; /* Change icon color */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between images */
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+ /* Modal styles */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+}
+.modal-content {
+    max-width: 100%;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+    object-fit: contain; /* Maintain aspect ratio */
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: rgb(7, 6, 6); /* Changed to white for better visibility */
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1001; /* Ensure it's above other content */
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    color: rgb(20, 17, 17); /* Changed to white for better visibility */
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(-50%);
+    z-index: 1001;
+}
+.left {
+    left: 10px;
+}
+.right {
+    right: 10px;
+}
