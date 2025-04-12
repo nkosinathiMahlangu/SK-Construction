@@ -1,0 +1,37 @@
+/* gradient */
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.items{
+list-style: none;
+font-size: 1.25rem;
+font-weight: 300
+}
+/*footer*/
+#footer{
+margin-bottom: 0px;
+}
+.card{
+  background-color: transparent;
+  border: 0px;
+}
+
+
+
+
